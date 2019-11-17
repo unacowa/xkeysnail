@@ -749,7 +749,7 @@ class Modifier(Enum):
         return {
             cls.L_CONTROL: {Key.LEFT_CTRL},
             cls.R_CONTROL: {Key.RIGHT_CTRL},
-            cls.CONTROL: {Key.LEFT_CTRL, Key.RIGHT_CTRL},
+            cls.CONTROL: {Key.LEFT_CTRL, Key.RIGHT_CTRL, Key.CAPSLOCK},
             cls.L_ALT: {Key.LEFT_ALT},
             cls.R_ALT: {Key.RIGHT_ALT},
             cls.ALT: {Key.LEFT_ALT, Key.RIGHT_ALT},
